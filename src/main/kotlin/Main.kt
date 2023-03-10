@@ -1,3 +1,7 @@
+fun sum(a:Double, b:Double, c:Double):Int {
+    return (a+b+c).toInt()
+}
+
 fun main(args: Array<String>) {
 
     // całkowite
@@ -24,4 +28,6 @@ fun main(args: Array<String>) {
     val stala = 10
 
     //operatory
+
+    sum(5.0,6.0,7.0)
 }
